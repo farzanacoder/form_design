@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(21, 21, 116);
+    /* transition: ease-in-out 0.4s; */
+}
+/* h1:hover{
+    color: aqua;
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    /* height: 120vh; */
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(images/bg1.jpg);
+    align-items: center;
+    background-size: cover;
+    background-position: bottom;
+}
+.log_in{
+    width: 90vh;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+.name{
+    padding: 10px 50px;
+    font-size: 13px;
+}
+.flex_input{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+label{
+    flex-basis: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.button{
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(21, 21, 116);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 2.5vh;
+    padding: 10px;
+}
+.button:hover{
+    background-color: rgb(33, 33, 175);
+    cursor: pointer;
+}
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vh;
+    justify-content: space-between;
+}
+span{
+    font-size: 1.5vw;
+}
+.flex_inpu1{
+}
+.forgot a{
+   text-decoration: none;
+   font-size: 1.5vw;
+   color: rgb(21, 21, 116);
+   font-family: cursive;
+}
+.forgot a:hover{
+    color: rgb(10, 10, 71);
+}
